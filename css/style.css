@@ -1,0 +1,124 @@
+.container{
+display: flex;
+justify-content: space-around;
+width: 1450px;
+margin: 0 auto;
+}
+nav{
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: inline-block;
+    ;color: #636060;
+    margin-left: 60px;
+
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.mysection{
+    margin-top: 18px;
+    height: 606px;
+    background-image: url(../images/rectangle1.png);
+    background-size: cover;
+}
+h2{
+    color: #FFF;
+
+font-family: Helvetica;
+font-size: 79px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h3{
+    color: #FFF;
+
+font-family: Helvetica;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 606px;
+    flex-direction: column;
+   
+}
+.divdiv{
+    width: 235px;
+    height: 250px;
+    margin-top: 84px;
+    display: inline-block;
+}
+h1{
+    color: #636060;
+
+font-family: Helvetica;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+h4{
+    color: #010101;
+
+font-family: Helvetica;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 9px;
+}
+p{
+    color: #636060;
+
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 37px;
+         
+}
+.cardsdiv{
+    display: inline-flex;
+    margin-left: 83px;
+    width: 924px;
+    height: 780px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: ;
+    
+}
+h5{
+    color: #343232;
+
+font-family: Helvetica;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+}
+.card{
+    width: 286px;
+    height: 185px;
+    display: inline-block;
+    margin-top: 35px;
+    
+}
+.connteiner{
+    width: 1265px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
