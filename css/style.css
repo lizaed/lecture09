@@ -1,19 +1,31 @@
 .container{
 display: flex;
-justify-content: space-around;
-width: 1450px;
+justify-content: space-between;
+max-width: 1260px;
+width: 100%;
 margin: 0 auto;
+gap: 40px;
+
 }
-nav{
-    width: 550px;
+
+header{
+    height: 60px;
+    margin-top: 30px;
+
+}
+
+ul{
+    width: 500px;
     display: flex;
     justify-content: space-around;
 }
+.fa-bars{
+    display: none;
+}
+
 li{
     display: inline-block;
-    ;color: #636060;
-    margin-left: 60px;
-
+    color: #636060;
     font-family: Helvetica;
     font-size: 17px;
     font-style: normal;
@@ -22,7 +34,7 @@ li{
 
 }
 .mysection{
-    margin-top: 18px;
+    margin-top: 15px;
     height: 606px;
     background-image: url(../images/rectangle1.png);
     background-size: cover;
@@ -54,9 +66,9 @@ line-height: normal;
    
 }
 .divdiv{
-    width: 235px;
+   max-width:235px ; 
+   width: 100%;
     height: 250px;
-    margin-top: 84px;
     display: inline-block;
 }
 h1{
@@ -90,13 +102,13 @@ p{
          
 }
 .cardsdiv{
-    display: inline-flex;
-    margin-left: 83px;
-    width: 924px;
+    display:flex;
+    max-width:924px ;
+    width: 100%; 
     height: 780px;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: ;
+   
     
 }
 h5{
@@ -111,14 +123,11 @@ margin-top: 15px;
 }
 .card{
     width: 286px;
-    height: 185px;
-    display: inline-block;
-    margin-top: 35px;
+    height: 185px; 
+    display:inline-block;
     
 }
-.connteiner{
-    width: 1265px;
-    height: 1000px;
-    margin: 0 auto;
-}
 
+section{
+    margin-top: 84px;
+}
